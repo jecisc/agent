@@ -17,6 +17,7 @@
 ## Pharo
 - Pharo usually compiles code in memory, but it persist the code on disk when commiting in files that are using the Tonel format. Since those files are generated, the structure is really standard. Make sure to follow this structure. Methods should be first the class side methods, then the instance side one. For both they are ordered alphabetically
 - Use #isNotNil and not #notNil. Use #isNotEmpty and not #notEmpty
+- Avoid the use of #isKindOf: when possible. If you want to use it, ask me if it's ok in this context
 
 ## Don't
 - Don't use emoji if it does not bring value
