@@ -19,6 +19,8 @@
 - Use #isNotNil and not #notNil. Use #isNotEmpty and not #notEmpty
 - Avoid the use of #isKindOf: when possible. If you want to use it, ask me if it's ok in this context
 - If you override a method, favors the use of the protocol in the superclass
+- If you send multiple messages to the same receiver, prefer a cascade except for assertions in a test case
+
 
 ## Don't
 - Don't use emoji if it does not bring value
