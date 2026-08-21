@@ -8,6 +8,7 @@
 - Avoid to add dependencies iff possible. If you wish to bring a new dependency ask me if I want it
 - Document public API
 - Do not wrap in the middle of a line before 200 character. We now have wide screens, let's use it
+- If you update code, check that class comments are still up to datex
 
 
 ## Python 
