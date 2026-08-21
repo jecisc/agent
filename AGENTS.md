@@ -21,6 +21,7 @@
 - If you override a method, favors the use of the protocol in the superclass
 - If you send multiple messages to the same receiver, prefer a cascade except for assertions in a test case
 - Pharo currently uses cr for line returns when the code is inside Pharo (in Tonel files, it is the line return of the OS). Use cr instead of lf if you compile some code in Pharo
+- In Pharo indexes starts at 1 and not 0 by stanrdard
 
 
 ## Don't
