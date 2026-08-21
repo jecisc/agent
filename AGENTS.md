@@ -20,6 +20,7 @@
 - Avoid the use of #isKindOf: when possible. If you want to use it, ask me if it's ok in this context
 - If you override a method, favors the use of the protocol in the superclass
 - If you send multiple messages to the same receiver, prefer a cascade except for assertions in a test case
+- Pharo currently uses cr for line returns when the code is inside Pharo (in Tonel files, it is the line return of the OS). Use cr instead of lf if you compile some code in Pharo
 
 
 ## Don't
