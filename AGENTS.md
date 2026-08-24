@@ -9,7 +9,8 @@
 - Document public API
 - Do not wrap in the middle of a line before 200 character. We now have wide screens, let's use it
 - If you update code, check that class comments are still up to datex
-
+- I am personaly using fish as shell
+- To know about me: I like to code in TDD if possible
 
 ## Python 
 - Use tabs for indentation and not spaces
