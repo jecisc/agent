@@ -23,8 +23,10 @@
 - If you override a method, favors the use of the protocol in the superclass
 - If you send multiple messages to the same receiver, prefer a cascade except for assertions in a test case
 - Pharo currently uses cr for line returns when the code is inside Pharo (in Tonel files, it is the line return of the OS). Use cr instead of lf if you compile some code in Pharo
-- In Pharo indexes starts at 1 and not 0 by stanrdard
-
+- In Pharo indexes starts at 1 and not 0 by standard
+- If you need to check the code of dependencies on the project, if there is a MCP active and the code in the image, it would be better to check in the image instead of asking me permissions to check all the clones on my computer
+- assertCollection:hasSameElements: ignores multiplicity in current images (#(a a) vs #(a) passes). Add an explicit size assertion to catch duplicates
+- Do not do `self assert: a == b` but `self assert: a identicalTo: b`
 
 ## Don't
 - Don't use emoji if it does not bring value
