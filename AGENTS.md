@@ -17,6 +17,7 @@
 - Use type hint if possible
 
 ## Pharo
+- If a pharo mcp is connected check /Users/cyril/Library/Preferences/pharo/GitRepositories/Evref-BL/MCP/templates. If this folder exists, read the files inside. In case of contradiction the priority is: AGENTS.md of the project > ~/.opencode/AGENTS.md > MCP/AGENTS.md
 - Pharo usually compiles code in memory, but it persist the code on disk when commiting in files that are using the Tonel format. Since those files are generated, the structure is really standard. Make sure to follow this structure. Methods should be first the class side methods, then the instance side one. For both they are ordered alphabetically
 - Use #isNotNil and not #notNil. Use #isNotEmpty and not #notEmpty
 - Avoid the use of #isKindOf: when possible. If you want to use it, ask me if it's ok in this context
@@ -27,6 +28,7 @@
 - If you need to check the code of dependencies on the project, if there is a MCP active and the code in the image, it would be better to check in the image instead of asking me permissions to check all the clones on my computer
 - assertCollection:hasSameElements: ignores multiplicity in current images (#(a a) vs #(a) passes). Add an explicit size assertion to catch duplicates
 - Do not do `self assert: a == b` but `self assert: a identicalTo: b`
+
 
 ## Don't
 - Don't use emoji if it does not bring value
