@@ -30,6 +30,7 @@
 - If you need to check the code of dependencies on the project, if there is a MCP active and the code in the image, it would be better to check in the image instead of asking me permissions to check all the clones on my computer
 - Class initializations should not have a super initialize call
 - If a MCP is connected, except if I tell you otherwise, only update the Pharo code and not the Tonel files on disk. The tonel files are overriten when we commit from Pharo so it is useless to sync them. Pharo will do it when I save my changes
+- In blocks, do not prefix variable names by "each". If it is a selector, call it "selector" and not "eachSelector"
 
 ### Testing
 - assertCollection:hasSameElements: ignores multiplicity in current images (#(a a) vs #(a) passes). Add an explicit size assertion to catch duplicates
