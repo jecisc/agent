@@ -3,3 +3,6 @@ This project contains a file I am personally putting in `~/opencode/AGENT.md` 
 Feel free to inspire yourself with my rules.
 
 NOTE: This is personal to me. It can give ideas but there might be things in there that will fit really my own personal workflow. Do not complain to me if you use it and it does not fit your way of coding.
+
+
+HAS BEEN MOVED TO https://github.com/jecisc/pharo-scripts/blob/master/AGENTS.md
